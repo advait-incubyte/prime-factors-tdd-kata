@@ -36,3 +36,4 @@ Implementing the above in NodeJS (vite + vitest)
 5. Wrote failing test case to assert return of [2] for 2
 6. Wrote passing test case that returns factors of 2
 7. Failing test case for 3, followed by logic update to handle factors of 3
+8. Works for 4 without code changes
