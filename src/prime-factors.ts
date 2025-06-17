@@ -5,13 +5,14 @@ export const primeFactors = (number: number) : number[] => {
     if (remainder == 1)
         return factors;
  
-    while (remainder % 2 == 0) {
-        factors.push(2);
-        remainder /= 2;
-    }
-    
-    if (remainder > 1)
-        factors.push(remainder);
+    let divisor = 2;
+    do {
+        while (remainder % divisor == 0) {
+            factors.push(divisor);
+            remainder /= divisor;
+        }
+        divisor++;
+    } while (remainder > 1)
 
     return factors;
 }
