@@ -21,4 +21,16 @@ describe('Prime Factors', () => {
     it('should return [2, 2] for 4', () => {
         expect(primeFactors(4)).toEqual([2, 2]);
     })
+
+    it('should return [5] for 5', () => {
+        expect(primeFactors(5)).toEqual([5]);
+    })
+
+    it('should return [2, 3] for 6', () => {
+        expect(primeFactors(6)).toEqual([2, 3]);
+    })
+
+    it('should return [7] for 7', () => {
+        expect(primeFactors(7)).toEqual([7]);
+    })
 })

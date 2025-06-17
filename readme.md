@@ -37,3 +37,4 @@ Implementing the above in NodeJS (vite + vitest)
 6. Wrote passing test case that returns factors of 2
 7. Failing test case for 3, followed by logic update to handle factors of 3
 8. Works for 4 without code changes
+9. Passes for 5, 6, 7 without code changes
