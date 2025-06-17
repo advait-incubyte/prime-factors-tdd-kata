@@ -5,7 +5,7 @@ export const primeFactors = (number: number) : number[] => {
     if (remainder == 1)
         return factors;
  
-    if (remainder % 2 == 0) {
+    while (remainder % 2 == 0) {
         factors.push(2);
         remainder /= 2;
     }

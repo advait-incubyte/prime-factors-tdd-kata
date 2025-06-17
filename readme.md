@@ -38,3 +38,4 @@ Implementing the above in NodeJS (vite + vitest)
 7. Failing test case for 3, followed by logic update to handle factors of 3
 8. Works for 4 without code changes
 9. Passes for 5, 6, 7 without code changes
+10. For failing test case of 8, we modify code to keep adding 2's to the factors list until it can cleanly divide, by using a loop
