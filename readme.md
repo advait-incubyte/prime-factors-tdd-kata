@@ -35,3 +35,4 @@ Implementing the above in NodeJS (vite + vitest)
 4. Wrote failing test case to assert return of [] for 1 (since 1 has no factors, it's also neither composite nor prime). This test case will pass without changes to the code.
 5. Wrote failing test case to assert return of [2] for 2
 6. Wrote passing test case that returns factors of 2
+7. Failing test case for 3, followed by logic update to handle factors of 3
