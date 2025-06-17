@@ -41,4 +41,9 @@ describe('Prime Factors', () => {
     it('should return [3, 3] for 9', () => {
         expect(primeFactors(9)).toEqual([3, 3]);
     })
+
+    it('should handle factors numbers > 9, say: 2 * 2 * 3 * 3 * 5 * 7 * 8 * 11 * 13', () => {
+        expect(primeFactors(2 * 2 * 3 * 3 * 5 * 7 * 11 * 13))
+            .toEqual([2, 2, 3, 3, 5, 7, 11, 13]);
+    })
 })

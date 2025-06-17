@@ -40,3 +40,4 @@ Implementing the above in NodeJS (vite + vitest)
 9. Passes for 5, 6, 7 without code changes
 10. For failing test case of 8, we modify code to keep adding 2's to the factors list until it can cleanly divide, by using a loop
 11. Refactoring the function with a nested loop to handle factors of 9 and above
+12. Our logic handles of numbers way larger than 9, say: [2 * 2 * 3 * 3 * 5 * 7 * 11 * 13] (180180)
