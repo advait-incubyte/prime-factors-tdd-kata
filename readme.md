@@ -31,3 +31,4 @@ Implementing the above in NodeJS (vite + vitest)
 ### Steps:
 1. Initial Commit and setup
 2. Creating the test file, and writing a initial failing test to check for existence.
+3. Wrote passing code for initial test case (empty function definition)
